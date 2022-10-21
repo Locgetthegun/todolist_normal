@@ -1,0 +1,18 @@
+.todo_item{
+   
+    border-bottom: 1px solid rgb(194, 192, 192);
+    display: flex;
+    align-items: center;
+    height: 35px;
+    .content{
+        
+        font-size: 1.6rem;
+    }
+}
+.check{
+    margin-right: 10px;
+}
+.checkedStyle{
+    text-decoration: line-through;
+    color: #999;
+}
